@@ -1,0 +1,11 @@
+const containerSection = document.getElementById('container');
+const secondElements = document.getElementsByClassName('second');
+const thirdInOl = document.querySelector('ol li.third');
+containerSection.textContent = '¡Hola!';
+const footerDiv = document.getElementsByClassName('footer')[0];
+footerDiv.classList.add('principal');
+footerDiv.classList.remove('principal');
+const newLi = document.createElement('li');
+newLi.textContent = 'cuatro';
+const ulElement = document.querySelector('ul');
+ulElement.appendChild(newLi);
